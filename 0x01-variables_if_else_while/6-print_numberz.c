@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Print all single digit numbers of base 10 starting from 0 using only the putchar function
+ * main - Print numbers from 0 to 9 using only the putchar function
  * Return: 0 Success
  */
 int main(void)
 {
 int i;
 
-for (i = 18; i <= 27; i++)
+for (i = 48; i <= 57; i++)
 {
 putchar(i);
 }
