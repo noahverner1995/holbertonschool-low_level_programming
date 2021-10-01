@@ -1,5 +1,10 @@
 #include <unistd.h>
 int main(void)
+/**
+ * main - Print a text in Standard Error with write() function
+ *
+ * Return: 1 
+ */
 {
 char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
