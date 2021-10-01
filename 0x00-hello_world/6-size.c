@@ -21,4 +21,4 @@ printf("Size of a long long int: %ld byte(s)\n", sizeof(longLongIntegerVar));
 printf("Size of a float: %ld byte(s)\n", sizeof(floatVar));
 
 return (0);
-}-
+}
