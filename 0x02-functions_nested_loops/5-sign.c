@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign - Check if is a letter, lowercase or uppercase *
+ * print_sign - Check if it's a letter, lowercase or uppercase *
  * @n: is the representation of char in ascii code
  *
  * Return: 1 if letter else 0 
