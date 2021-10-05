@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * main - Writes the string Holberton to stdout
  *
