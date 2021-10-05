@@ -4,7 +4,7 @@
  * print_sign - Check if it's a letter, lowercase or uppercase *
  * @n: is the representation of char in ascii code
  *
- * Return: 1 if letter else 0 
+ * Return: 1 if letter else 0
  */
 int print_sign(int n)
 {
