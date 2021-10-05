@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Writes the string Holberton to stdout
+ * main - Writes the string _putchar to stdout
  *
  * Return: On success 0
  */
