@@ -1,22 +1,27 @@
 #include <stdio.h>
 
 /**
- * main - Print the sum of all the multiples of 3 or 5 below 1024 (excluded)
+ * main - Print the first 50 fibonnaci numbers starting with 1 and 2
  *
  * Return: 0 success
  */
 int main(void)
 {
-int i, ans = 0;
+unsigned long x1 = 0, x2 = 1, next = 0, n = 50;
 
-for (i = 0; i < 1024; i++)
+while (n != 0)
 {
-if (i % 3 == 0 || i % 5 == 0)
+next = x1 + x2;
+x1 = x2;
+x2 = next;
+printf("%lu", next);
+if (n > 1)
 {
-ans += i;
+printf(", ");
 }
+n--;
 }
-printf("%d\n", ans);
+putchar('\n');
 
 return (0);
 }
