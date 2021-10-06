@@ -1,3 +1,3 @@
-<h1>0x02. C - Functions, nested loops</h2>
+<h1>This directory is about C - Functions, nested loops</h2>
 <br></br>
 #updatemelater
