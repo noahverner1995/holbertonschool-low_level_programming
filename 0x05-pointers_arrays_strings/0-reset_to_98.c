@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - Updates the value of an int variable from outside
+ * reset_to_98 - Update the value of an int variable from outside
  *
  * @n: Pointer parameter
  */
