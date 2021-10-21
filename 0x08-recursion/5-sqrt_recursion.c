@@ -13,9 +13,9 @@ int sqrt_mod(int n, int i)
 if (i * i == n)
 return (i);
 i++;
-if (i * i < n)
+if (i *i < n)
 return (sqrt_mod(n, ++i));
-if (i * i > n)
+if (i *i > n)
 return (-1);
 return (i);
 }
