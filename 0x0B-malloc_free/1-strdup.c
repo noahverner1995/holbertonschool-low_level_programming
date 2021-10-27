@@ -25,7 +25,7 @@ if (dupli == NULL)
 return (NULL);
 
 _strcpy(dupli, str);
-  return (dupli);
+return (dupli);
 
 }
 
