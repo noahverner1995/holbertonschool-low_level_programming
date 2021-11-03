@@ -3,7 +3,7 @@
 /**
  * print_name - Execute the function passed by argument
  * @name: String name
- * @f: Function void that receives as argument a string
+ * @f: Function void that receives as argument a string value
  *
  * Return: nothing;
  */
