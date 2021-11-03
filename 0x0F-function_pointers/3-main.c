@@ -2,7 +2,7 @@
 
 
 /**
- * main - Emulate a calculator in the shell
+ * main - Emulate a calculator in the Shell
  * @argc: Size of argv
  * @argv: Array of string of parameters given in the shell
  *
