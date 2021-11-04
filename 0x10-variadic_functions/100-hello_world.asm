@@ -3,16 +3,16 @@ global _start
 section .text
 
 _start:
-mov rax, 1        	; write(
-mov rdi, 1        	;   STDOUT_FILENO,
-mov rsi, msg      	;   "Hello, World\n",
+mov rax, 0x1        	; write(
+mov rdi, 0x1        	;   STDOUT_FILENO,
+mov rsi, message      	;   "Hello, World\n",
 mov rdx, msglen   	;   sizeof("Hello, world!\n")
 syscall           	; );
 
-mov rax, 60       	; exit(
-mov rdi, 0        	;   EXIT_SUCCESS
+mov rax, 0x3c       	; exit(
+mov rdi, 0x2        	;   EXIT_SUCCESS
 syscall           	; );
 
-section .rodata	
-msg:	 db "Hello, World", 10
-msglen:	 equ $ - msg
+section .data	
+message: db "Hello, World", 0xA
+msglen: equ $ -message
