@@ -2,26 +2,26 @@
 
 /**
  * free_listint_safe - Free the list and put NULL in the head
- * @h: Head of the list
+ * @head: Head of the list
  *
  * Return: the size of the list that was free’d
  */
-size_t free_listint_safe(listint_t **h)
+size_t free_listint_safe(listint_t **head)
 {
 size_t i = 0;
 listint_t *temp;
 
-if (h == NULL)
+if (head == NULL)
 return (i);
 
-while (*h != NULL)
+while (*head != NULL)
 {
-temp = *h;
-*h = temp->next;
+temp = *head;
+*head = temp->next;
 free(temp);
 i++;
 }
-*h = NULL;
+*head = NULL;
 
 return (i);
 }
