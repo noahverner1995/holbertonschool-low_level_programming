@@ -17,8 +17,8 @@ typedef unsigned long int uli;
  */
 typedef struct listint_s
 {
-	int n;
-	struct listint_s *next;
+int n;
+struct listint_s *next;
 } listint_t;
 
 /**
@@ -32,9 +32,9 @@ typedef struct listint_s
  */
 typedef struct entry_t
 {
-	unsigned long int key;
-	unsigned long int value; /* The address */
-	struct entry_t *next;
+unsigned long int key;
+unsigned long int value; /* The address */
+struct entry_t *next;
 } entry_t;
 
 /**
