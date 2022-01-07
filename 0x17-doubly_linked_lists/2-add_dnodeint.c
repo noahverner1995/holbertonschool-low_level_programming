@@ -4,7 +4,6 @@
  * add_dnodeint - Add a node in the head of the list
  * @head: Memory of the Head of the linked list
  * @n: Integer data
- *
  * Return: Head of the list
  */
 dlistint_t *add_dnodeint(dlistint_t **head, const int n)
